@@ -1,0 +1,19 @@
+# Core dependencies
+flask==2.2.3          # Web framework
+requests>=2.26.0      # HTTP requests library
+
+# Database libraries
+sqlalchemy==1.4.41    # ORM for databases
+psycopg2-binary==2.9.6 # PostgreSQL adapter
+
+# Testing and linting
+pytest==7.2.2         # Testing framework
+flake8==6.0.0         # Linting for code quality
+
+# Data handling
+pandas==1.4.3         # Data manipulation
+numpy==1.23.5         # Numerical computations
+
+# Optional (replace or add libraries specific to your app)
+python-dotenv==1.0.0  # Manage environment variables
+
